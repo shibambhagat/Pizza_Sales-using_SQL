@@ -1,6 +1,5 @@
-Here is a suitable format for your README.md file:
 
-```markdown
+
 # Pizza Sales Analysis SQL Queries
 
 This repository contains a collection of SQL queries designed for analyzing pizza sales and order data. The queries are written for a database system that includes tables for orders, pizzas, and order details.
@@ -19,6 +18,8 @@ This repository contains a collection of SQL queries designed for analyzing pizz
 - [Calculate the percentage contribution of each pizza type to total revenue](#calculate-the-percentage-contribution-of-each-pizza-type-to-total-revenue)
 - [Analyze the cumulative revenue generated over time](#analyze-the-cumulative-revenue-generated-over-time)
 - [Determine the top 3 most ordered pizza types based on revenue for each pizza category](#determine-the-top-3-most-ordered-pizza-types-based-on-revenue-for-each-pizza-category)
+
+
 
 ### Retrieve the total number of orders placed
 ```sql
@@ -151,5 +152,4 @@ FROM (
 ) AS b
 WHERE rn <= 3;
 ```
-
-Feel free to copy and paste this into your README.md file.
+```
