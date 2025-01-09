@@ -196,24 +196,3 @@ FROM (
 ) AS b
 WHERE rn <= 3;
 
-###Findings
-Total Orders: The total number of orders placed.
-Revenue Insights: The total revenue generated from pizza sales, most profitable pizza types, and their contribution to overall sales.
-Pizza Preferences: The most common pizza size ordered and the top 5 most ordered pizza types.
-Sales Trends: Cumulative revenue generated over time and sales trends for specific dates and periods.
-Category-Wise Performance: Distribution of pizzas across different categories and the top 3 pizza types by revenue for each category.
-###Reports
-Order Analysis Report: Detailed report on the number of orders, order distribution by hour, and average number of pizzas ordered per day.
-Revenue Report: Comprehensive report on total revenue, profitable pizza types, and revenue contribution of each pizza type.
-Pizza Preferences Report: Analysis of common pizza sizes, top ordered pizza types, and quantity of each pizza category ordered.
-Sales Trends Report: Visualization of cumulative revenue and sales trends over time.
-Category-Wise Performance Report: Insights into the distribution of pizzas and top-performing pizza types by category.
-###Conclusion
-The analysis of the pizza sales database using the provided SQL queries offers valuable insights into sales performance, customer preferences, and business trends. By leveraging these insights, businesses can make data-driven decisions to optimize their menu offerings, pricing strategies, and inventory management. The reports generated from the queries provide actionable information for restaurant owners, managers, data analysts, and business intelligence teams.
-
-###How to Use
-Set Up Database: Ensure you have a SQL-based database (e.g., MySQL, PostgreSQL) with the necessary tables and data for pizza sales.
-Run Queries: Execute the provided SQL queries in your database management system to retrieve insights and generate reports.
-Analyze Results: Review the query results to understand sales performance, customer preferences, and trends.
-Generate Reports: Use the query results to create detailed reports and visualizations for data-driven decision-making.
-Implement Changes: Based on the insights, make informed decisions to optimize menu offerings, pricing, and inventory management.
